@@ -37,8 +37,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse me-1 navbar-contents justify-content-end">
-          <ul class="navbar-nav  mb-2 mb-lg-0 ">
+        <div
+          class="collapse navbar-collapse me-1 navbar-contents justify-content-end"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
@@ -81,7 +83,9 @@
         <div
           class="hero-backnext d-flex justify-content-around bg-black text-light pt-2"
         >
-          <p>&larr; Back &nbsp;| &nbsp; Next &rarr;</p>
+          <p class="p-1">&larr; Back</p>
+          <p class="p-1">|</p>
+          <p class="p-1">Next &rarr;</p>
         </div>
       </div>
     </section>
@@ -157,46 +161,52 @@
     <section>
       <h2 class="text-center mt-5 mt-lg-1">Services</h2>
       <div
-        class="service1 d-flex flex-column gap-3 flex-md-row justify-content-md-evenly"
+        class="service1 d-flex flex-column gap-3 flex-md-row justify-content-between"
       >
         <div
-          class="white-background border p-4 m-3 d-flex flex-column justify-content-center align-item-center"
+          class="white-background p-4 m-3 gap-3 d-flex flex-column justify-content-center align-items-center"
         >
-          <img
-            class="service-icon1 w-25 m-3 ms-5"
-            src="../images/icon1.png"
-            alt="icon1"
-            height="30px"
-            width="30px"
-          />
-          <hr class="" />
-          <h4 class="text-center fs-6">Construction</h4>
+          <div>
+            <img class="service-icon1" src="../images/icon1.png" alt="icon1" />
+          </div>
+          <div>
+            <img src="./images/service_rectangle.png" alt="horizontal-line" />
+          </div>
+          <div>
+            <h4 class="text-center fs-6">Construction</h4>
+          </div>
         </div>
 
         <div
-          class="color-background border p-4 m-3 d-flex flex-column text-light"
+          class="color-background p-4 m-3 gap-3 d-flex flex-column justify-content-center align-items-center"
         >
-          <img
-            class="service-icon2 w-25 m-3 ms-5"
-            src="../images/icon2.png"
-            alt="icon2"
-          />
-          <h4 class="text-center fs-6">
-            <hr />
-            Renovation
-          </h4>
+          <div>
+            <img class="service-icon2" src="../images/icon2.png" alt="icon2" />
+          </div>
+
+          <div>
+            <img src="./images/service_rectangle.png" alt="horizontal-line" />
+          </div>
+
+          <div>
+            <h4 class="text-center fs-6 text-light">Renovation</h4>
+          </div>
         </div>
 
-        <div class="white-background border p-4 m-3 d-flex flex-column">
-          <img
-            class="service-icon3 w-25 m-3 ms-5"
-            src="../images/icon3.png"
-            alt="icon3"
-          />
-          <h4 class="text-center fs-6">
-            <hr />
-            Consultation
-          </h4>
+        <div class="white-background p-4 m-3 gap-3 d-flex flex-column justify-content-center align-items-center">
+          <div>
+            <img
+              class="service-icon3"
+              src="../images/icon3.png"
+              alt="icon3"
+            />
+          </div>
+          <div>
+            <img src="./images/service_rectangle.png" alt="horizontal-line" />
+          </div>
+          <div>
+            <h4 class="text-center fs-6">Consultation</h4>
+          </div>
         </div>
       </div>
 
@@ -204,42 +214,48 @@
         class="service1 d-flex flex-column gap-3 flex-md-row justify-content-md-evenly"
       >
         <div
-          class="color-background border p-4 m-3 d-flex flex-column text-light"
+          class="color-background p-4 m-3 gap-3 d-flex flex-column justify-content-center align-items-center"
         >
-          <img
-            class="service-icon4 w-25 m-3 ms-5"
-            src="../images/icon4.png"
-            alt="icon4"
-          />
-          <h4 class="text-center fs-6">
-            <hr />
-            Repair Services
-          </h4>
+          <div>
+            <img
+              class="service-icon4"
+              src="../images/icon4.png"
+              alt="icon4"
+            />
+          </div>
+          <div>
+            <img src="./images/service_rectangle.png" alt="horizontal-line" />
+          </div>
+          <div><h4 class="text-center fs-6 text-light">Repair Services</h4></div>
         </div>
-        <div class="white-background border p-4 m-3 d-flex flex-column">
-          <img
-            class="service-icon5 w-25 m-3 ms-5"
-            src="../images/icon5.png"
-            alt="icon5"
-          />
-          <h4 class="text-center fs-6">
-            <hr />
-            Architecture
-          </h4>
+        <div class="white-background p-4 m-3 gap-3 d-flex flex-column justify-content-center align-items-center">
+          <div>
+            <img
+              class="service-icon5"
+              src="../images/icon5.png"
+              alt="icon5"
+            />
+          </div>
+          <div>
+            <img src="./images/service_rectangle.png" alt="horizontal-line" />
+          </div>
+          <div><h4 class="text-center fs-6">Architecture</h4></div>
         </div>
 
         <div
-          class="color-background border p-4 m-3 d-flex flex-column text-light"
+          class="color-background p-4 m-3 gap-3 d-flex flex-column justify-content-center align-items-center"
         >
-          <img
-            class="service-icon6 w-25 m-3 ms-5"
-            src="../images/icon6.png"
-            alt="icon6"
-          />
-          <h4 class="text-center fs-6">
-            <hr />
-            Electric
-          </h4>
+          <div>
+            <img
+              class="service-icon6"
+              src="../images/icon6.png"
+              alt="icon6"
+            />
+          </div>
+          <div>
+            <img src="./images/service_rectangle.png" alt="horizontal-line" />
+          </div>
+          <div><h4 class="text-center fs-6 text-light">Electric</h4></div>
         </div>
       </div>
     </section>
@@ -249,54 +265,56 @@
     <!-- Experience section start -->
 
     <div
-      class="experiencePage mt-5 d-flex flex-column gap-5 flex-md-row justify-content-md-between"
+      class="experiencePage mt-5 d-flex flex-column gap-5 flex-lg-row justify-content-md-around "
     >
-      <div class="leftExperienceFullImage d-flex flex-column gap-5 m-4">
-        <div class="projectImage84 ms-md-3 z-md-">
-          <img class="image84" src="../images/experience_84.png" alt="image" />
-          <p class="happyclients ms-md-3">
+      <div class="experience-left d-flex flex-column align-items-center gap-5 flex-md-row align-ite">
+        <div class="projectImage84 position-relative bg-white">
+          <img class="image84 w-25 position-absolute top-0 start-100 translate-middle " src="../images/experience_84.png" alt="image" />
+          <p class="happyclients p-4">
             <strong>84<br /></strong>| Happy Clients
           </p>
         </div>
 
-        <div class="projectImage123">
+        <div class="projectImage123 position-relative bg-white">
           <img
-            class="image123"
+            class="image123 w-25 position-absolute top-0 start-0 translate-middle "
             src="../images/experience_123.png"
             alt="image"
           />
-          <p class="ms-md-3">
+          <p class="p-4">
             <strong>123<br /></strong>| Projects Completed
           </p>
         </div>
 
-        <div class="projectImage37">
-          <img class="image37" src="../images/experience_37.png" alt="image" />
-          <p class="ms-md-3">
+        <div class="projectImage37 position-relative bg-white">
+          <img class="image37 w-25 position-absolute top-0 start-100 translate-middle " src="../images/experience_37.png" alt="image" />
+          <p class="p-4">
             <strong>37<br /></strong>| Award Win
           </p>
         </div>
 
-        <div class="projectImage30">
-          <img class="image30" src="../images/experience_30.png" alt="image" />
-          <p class="mt-md-5 ms-md-3">
+        <div class="projectImage30 position-relative bg-white">
+          <img class="image30 w-25 position-absolute top-100 start-100 translate-middle " src="../images/experience_30.png" alt="image" />
+          <p class="p-4">
             <strong>30<br /></strong>| Years in Business
           </p>
         </div>
       </div>
 
-      <div class="rightExperienceFullText d-flex flex-column ms-5 me-md-4">
+      <div
+        class="experience-right d-flex flex-column m-5 align-self-lg-center"
+      >
         <h class="years fs-1"
           ><b>30 Years <br />Experience</b></h
         >
-        <p class="our-company">
-          <br />Our company has been the<br />
-          leading provided construction<br />
-          services to clients throughout<br />
+        <p class="our-company ">
+          <br />Our company has been the
+          leading provided construction
+          services to clients throughout
           the USA since 1988.<br />
         </p>
 
-        <br /><button class="experience-contact w-50 text-light">
+        <br /><button class="experience-contact p-md-1 px-md- text-light">
           Contact Us
         </button>
       </div>
@@ -326,7 +344,7 @@
     <section class="project mt-5 ms-3 me-3">
       <h2 id="project-head">Projects</h2>
       <div
-        class="project-header d-flex flex-column  justify-content-around flex-lg-row justify-content-lg-around"
+        class="project-header d-flex flex-column justify-content-around flex-lg-row justify-content-lg-around"
       >
         <div
           class="project-left d-flex flex-row justify-content-around flex-lg-column justify-content-lg-start"
@@ -343,7 +361,9 @@
           >
         </div>
         <div class="project-right d-flex flex-column">
-          <div class="right-top d-flex flex-column flex-md-row justify-content-evenly gap-lg-5">
+          <div
+            class="right-top d-flex flex-column flex-md-row justify-content-evenly gap-lg-5"
+          >
             <div class="d-flex flex-column">
               <img src="../images/Projectimg1.png" alt="one" />
               <p class="text-light ps-3">
@@ -359,10 +379,12 @@
               </p>
             </div>
           </div>
-          <div class="right-middle d-flex flex-column flex-md-row justify-content-evenly gap-lg-5" >
+          <div
+            class="right-middle d-flex flex-column flex-md-row justify-content-evenly gap-lg-5"
+          >
             <div class="d-flex flex-column">
               <img src="../images/Projectimg3.png" alt="one" />
-              <p class="text-light ps-3 ">
+              <p class="text-light ps-3">
                 <strong>Mr. Parkinston’s House<br /></strong>3517 W. Gray St.
                 Utica, Pennsylvania
               </p>
@@ -377,9 +399,15 @@
           </div>
         </div>
       </div>
-      <div class="project-footer d-flex flex-row justify-content-evenly text-white justify-content-md-between justify-content-lg-evenly">
-        <div class="bg-black p-3 px-md-4"><p><br>&nbsp;&larr; Back</p></div>
-        <div class="bg-black p-3 "><p id="project-next"><br>Next &rarr;&nbsp;</p></div>
+      <div
+        class="project-footer d-flex flex-row justify-content-evenly text-white justify-content-md-between justify-content-lg-evenly"
+      >
+        <div class="bg-black p-2 text-center">
+          <p>&larr; Back</p>
+        </div>
+        <div class="bg-black p-2 text-center ms-lg-5">
+          <p>Next &rarr;</p>
+        </div>
       </div>
       <!-- <div class="project-footer d-flex justify-content-evenly bg-black text-white">
         <p>&nbsp;&larr; Back</p>
@@ -391,50 +419,111 @@
 
     <!-- form section start -->
 
-    <section>
-        <h2><br />What can us do for you?</h2>
-        <p class="form-paragraph">
-          We are ready to work on a project of any complexity,<br />
-          whether it’s commercial or residential.
-        </p>
-  
+    <section class="mt-5 mt-md-5">
+      <h2 class="text-center">What can us do for you?</h2>
+      <p class="form-paragraph text-center">
+        We are ready to work on a project of any complexity,<br />
+        whether it’s commercial or residential.
+      </p>
+      <div class="text-center">
         <p class="formFill">
-          <br />
           <br /><input
+            class="m-2"
             type="text"
             name="yourname"
             id="yourname"
             placeholder="Your Name*"
           />
-          &nbsp;
           <input type="email" name="email" id="email" placeholder="Email*" />
           <br />
+
           <input
+            class="m-2"
             type="text"
             name="reasonforcontact"
             id="reasonforcontact"
             placeholder="Reason for Contacting*"
-          />&nbsp;&nbsp;
+          />
           <input type="number" placeholder="Phone" />
           <br />
-          <br />
-  
+
           <textarea
+            class="m-3"
             name="message"
-            cols="36"
+            cols="30"
             rows="6"
             placeholder="Message"
           ></textarea>
         </p>
-        <p class="form-indication">* indicates a required field</p>
-  
-        <button class="form-button text-light px-5 text-center ">Submit</button>
-      </section>
-  
-      <!-- form section end -->
+        <p>* indicates a required field</p>
+        <button class="form-button text-light px-4 px-md-5">Submit</button>
+      </div>
+    </section>
 
+    <!-- form section end -->
 
+    <!-- bottom section start -->
+    <section class="mt-5">
+      <div
+        class="Footer d-flex flex-column gap-3 justify-content-around m-3 flex-md-row gap-md-5 m-lg-5 px-lg-5"
+      >
+        <div class="footer-left d-flex flex-column gap-3">
+          <div class="d-flex gap-3">
+            <div class="footer-question">ADDRESS:</div>
+            <div>6391 Elgin St. Celina, Delaware 10299</div>
+          </div>
 
+          <div class="d-flex gap-4">
+            <div class="footer-question">PHONE:</div>
+            <div>+84 1102 2703</div>
+          </div>
+
+          <div class="d-flex gap-4">
+            <div class="footer-question">EMAIL:</div>
+            <div>hello@thebox.com</div>
+          </div>
+          <div class="d-flex flex-row gap-2">
+            <img src="../images/symbol.png" alt="symbol" />
+            <div class="the-box fs-4 fw-bold"><em>The</em>Box</div>
+          </div>
+        </div>
+
+        <div class="footer-right d-flex flex-column gap-3">
+          <div>
+            <div class="footer-question">NEWSLETTER:</div>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email here"
+            />&nbsp;
+            <button class="footer-subscribe text-light fs-6">Subscribe</button>
+          </div>
+          <div class="footer-icon">
+            <div class="footer-question">SOCIAL:</div>
+
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook fs-1 m-1"></i>
+              <i class="fa-brands fa-linkedin fa-sm fs-1 m-1"></i>
+              <i class="fa-brands fa-square-twitter fs-1 m-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- bottom section end -->
+    <section>
+      <div class="footer-bottom">
+        <p class="text-light p-2 p-md-4">
+          TheBox Company © 2022. All Rights Reserved
+        </p>
+      </div>
+    </section>
   </body>
-  
+  <script
+    src="https://kit.fontawesome.com/6dc7929f7c.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
