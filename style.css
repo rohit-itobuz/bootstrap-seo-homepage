@@ -1,0 +1,230 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a:hover {
+  color: orange !important;
+}
+
+#hero-section {
+  background-image: url("./images/building.png");
+  min-height: 60vh;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.hero-right {
+  background: #3559c7;
+}
+
+.about-right {
+  background-color: #2947a9;
+  height: 30rem;
+}
+
+.button {
+  position: absolute;
+  color: #2947a9;
+  background-color: #ffffff;
+}
+
+.color-background {
+  background-color: #2947a9;
+  width: 17rem;
+  height: 12rem;
+}
+
+.white-background {
+  box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+  color: #2947a9;
+  width: 17rem;
+  height: 12rem;
+}
+
+.years {
+  color: #2947a9;
+}
+.our-company {
+  color: #525b7a;
+}
+.experience-contact {
+  background: #2947a9;
+}
+.projectImage84 {
+  height: 7rem;
+  width: 12rem;
+  box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+    0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+}
+
+.projectImage123 {
+  height: 7rem;
+  width: 12rem;
+  box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+    0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+}
+
+.projectImage37 {
+  height: 7rem;
+  width: 12rem;
+  box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+    0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+}
+
+.projectImage30 {
+  height: 7rem;
+  width: 12rem;
+  box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+    0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+}
+
+
+.consultation {
+  background-image: url("./images/kitchen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consult-right {
+  background: transparent;
+  border: 2px solid white;
+}
+.consultation {
+  margin-top: 5rem;
+}
+
+.right-top p {
+  background-color: #2947a9;
+}
+.right-middle p {
+  background-color: #2947a9;
+}
+.form-button {
+  background-color: #2947a9;
+}
+
+.footer-question {
+  color: #2947a9;
+}
+.the-box {
+  color: #2947a9;
+}
+.footer-subscribe {
+  background-color: #f9995d;
+  cursor: pointer;
+}
+.footer {
+  background-color: #2947a9;
+}
+
+@media (min-width: 768px) {
+  #hero-section {
+    min-height: 47vh;
+  }
+
+  .service {
+    width: 30%;
+  }
+
+  .team {
+    width: 30%;
+  }
+
+  .design {
+    width: 30%;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-right {
+    background-color: #2947a9;
+    height: 25rem;
+    width: 70%;
+    margin-left: 20rem;
+  }
+
+  .experience-left {
+    width: 48rem;
+    height: 29rem;
+    position: relative;
+  }
+
+  .projectImage84 {
+    position: absolute;
+    z-index: 1;
+    left: 20rem;
+    top: -7rem;
+  }
+
+  .projectImage123 {
+    position: absolute;
+    z-index: -1;
+    top: -2rem;
+    left: -1rem;
+  }
+
+  .projectImage37 {
+    position: absolute;
+    z-index: 2;
+    left: -6rem;
+    top: 4rem;
+  }
+
+  .projectImage30 {
+    position: absolute;
+    left: -25rem;
+    top: 8rem;
+  }
+  .project-button {
+    margin-left: 12rem;
+  }
+  
+
+  .consultation {
+    margin-top: 13rem;
+    height: 10rem;
+  }
+  .consult-left {
+    margin-top: 3rem;
+  }
+  .consult-right {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-section {
+    min-height: 60vh;
+  }
+  .hero-left {
+    margin-left: 8rem;
+  }
+
+  .about-left {
+    position: relative !important;
+    width: 80vw;
+  }
+
+  .about-right {
+    position: absolute;
+    height: 25rem;
+    width: 40%;
+    top: 64rem;
+    left: 35rem;
+  }
+  .project-button {
+    margin-left: 8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-right {
+    height: 30rem;
+    width: 40%;
+    top: 77rem;
+    left: 45rem;
+  }
+}
